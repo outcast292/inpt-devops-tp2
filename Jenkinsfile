@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "docker_hub_account/repository_name"
+    registry = "outcast292/my-app-2"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
